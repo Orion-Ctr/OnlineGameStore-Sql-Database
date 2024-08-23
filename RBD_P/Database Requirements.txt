@@ -1,0 +1,11 @@
+online game store
+
+
+We have an online game store that offers a variety of games to users.
+we want to store information about customers who visit our store like (ID, Name and surname, age, email, region, register date, address) and information about developers (Name, status, id, register date, number of employees, address, email, age of developer in business). A developer may have another developer publish its game as a publisher and may publish games for multiple developers. We should track the current publisher of each developer 
+We will also store information about game titles (name, serial code, genres, release dates, Age rating, region restriction, gaming platform and prices) and the developer that publishes title. A developer may develop multiple game titles and a game title may be developed by multiple developers.
+We also want to know if a game title is regionally locked or free, and what region it’s blocked in with info such as name, country code.
+We also want to store info about game categories (Name, Code, titles list, type (2D, AR, VR,3D). many game titles can belong to one category and a game title can belong to many categories.
+Customers can rate game titles they have played providing a rating of 1 to 5 points, date of review, game title, developer and customer id.
+Each game title can be rated by multiple customers, and each customer can rate multiple games.
+and Age rating (ID, type, age, date, grade)
